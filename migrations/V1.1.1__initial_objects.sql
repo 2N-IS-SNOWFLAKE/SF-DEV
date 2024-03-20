@@ -1,11 +1,4 @@
-
-SELECT 'TEST TEST TEST ';
-
-
- git config --global user.email "janda@2n.com"
-  git config --global user.name "Your Name"
-
-
-  ETStestsdfgsktjhs
-
-'AHOJ TOTO JE TEST SYNCHRONIZACE ZPET DO VS CODE'
+CREATE OR REPLACE VIEW L0_HELIOS.PUBLIC.VW_TEST_GIT_SCHEMACHANGE AS 
+SELECT 
+    TOP 100 *
+FROM L0_HELIOS.PUBLIC.L0_2N_PRODUCT_DIMENSIONS;
