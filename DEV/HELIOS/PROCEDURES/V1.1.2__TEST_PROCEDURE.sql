@@ -14,3 +14,4 @@ BEGIN
 
 return 'AOK'; /*POČET VLOŽENÝCH ZÁZNAMŮ*/
 end;
+;
