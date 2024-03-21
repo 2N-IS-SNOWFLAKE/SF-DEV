@@ -146,4 +146,3 @@ VALUES
 
 return :sqlrowcount; /*POČET VLOŽENÝCH ZÁZNAMŮ*/
 end;
-;
