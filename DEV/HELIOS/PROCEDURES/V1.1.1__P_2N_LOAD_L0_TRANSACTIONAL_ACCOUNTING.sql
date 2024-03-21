@@ -10,7 +10,7 @@ DECLARE row_count integer default 0;
 BEGIN 
 use L0_HELIOS_DEV.public;
 ALTER SESSION SET TIMEZONE = 'Europe/Prague';
-CREATE OR REPLACE TEMPORARY table JSON_temp_table (json_data  variant );
+CREATE OR REPLACE TEMPORARY table JSON_temp_table (json_data  variant ) ;
 
 DECLARE SQL string;
 
